@@ -1,10 +1,10 @@
-# Grey
-#u should use node for the app
-A Material designed music player developed in Flutter
+# Droid-Tunes
+#you should use node for the app
+An Android music player developed in Flutter
 <br>
 All thanks to Aman Gautam,check his repo <a href="https://github.com/amangautam1/flutter-musicplayer" >here</a>
 <br>
-Download releases <a href="https://github.com/avirias/Grey/releases">here</a>.
+Download releases <a href="https://github.com/aviriasroger-devhub/Droid-Tunes/releases">here</a>.
 
 # Screenshots
 <img src="screenshots/home1.png" height="520px"><img src="screenshots/home2.png" height="520px"><img src="screenshots/album.png" height="520px">
@@ -12,7 +12,7 @@ Download releases <a href="https://github.com/avirias/Grey/releases">here</a>.
 <img src="screenshots/artist.png" height="520px"><img src="screenshots/artist_view.png" height="520px"><img src="screenshots/playlist.png" height="520px">
 
 # Plugins
-Music player plugin used : <a href="https://github.com/iampawan/Flute-Music-Player">Flute-music</a>
+Music player plugin used : <a href="https://github.com/droid-tunes/Flute-Music-Player">Flute-music</a>
 
 ## Getting Started
 

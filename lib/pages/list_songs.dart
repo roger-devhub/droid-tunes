@@ -6,7 +6,7 @@ import 'package:flute_music_player/flute_music_player.dart';
 import 'package:flutter/material.dart';
 import 'package:musicplayer/database/database_client.dart';
 import 'package:musicplayer/pages/now_playing.dart';
-import 'package:musicplayer/util/AAppBar.dart';
+import 'package:musicplayer/util/AppBar.dart';
 import 'package:musicplayer/util/lastplay.dart';
 import 'package:flutter/cupertino.dart';
 
@@ -158,7 +158,7 @@ class _ListSong extends State<ListSongs> {
     return new Scaffold(
       backgroundColor: Color(0xFFFAFAFA),
       appBar: widget.orientation == Orientation.portrait
-          ? AAppBar(
+          ? AppBar(
               title: getTitle(widget.mode).toLowerCase(),
               isBack: true,
             )

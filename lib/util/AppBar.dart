@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class AAppBar extends StatelessWidget implements PreferredSizeWidget {
-  AAppBar({this.title, this.isBack = false});
+class AppBar extends StatelessWidget implements PreferredSizeWidget {
+  AppBar({this.title, this.isBack = false});
   final String title;
   final bool isBack;
   @override

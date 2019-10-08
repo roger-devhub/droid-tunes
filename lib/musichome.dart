@@ -224,7 +224,7 @@ class _MusicState extends State<MusicHome> {
         key: scaffoldState,
         appBar: _selectedIndex == 0
             ? null
-            : AAppBar(title: title[_selectedIndex].toLowerCase(),),
+            : AppBar(title: title[_selectedIndex].toLowerCase(),),
         floatingActionButton: new FloatingActionButton(
             child: new FlutterLogo(
               colors: Colors.blueGrey,

@@ -65,7 +65,7 @@ class stateHome extends State<Home> {
   aboutPart(){
     showAboutDialog(
       context: context,
-      applicationName: "Grey",
+      applicationName: "Droid-Tunes",
       applicationVersion: "0.3.0",
       applicationLegalese: "MIT License",
       applicationIcon: FlutterLogo(colors: Colors.blueGrey),
@@ -121,7 +121,7 @@ class stateHome extends State<Home> {
               ]
             ))
 //            Text(
-//              "Developed by Avinash Kumar",
+//              "Developed by Roger van Wyk",
 //              style: TextStyle(
 //                  ),
 //            ),
@@ -880,9 +880,9 @@ class stateHome extends State<Home> {
 
   launchUrl(int i) async {
     if (i == 1)
-      launch("http://github.com/avirias");
+      launch("http://github.com/roger-vanwyk");
     else if (i == 2)
-      launch("http://facebook.com/avirias");
-    else if (i == 3) launch("https://instagram.com/avirias/");
+      launch("http://facebook.com/roger-vanwyk);
+    else if (i == 3) launch("https://instagram.com/romeovick84/");
   }
 }
